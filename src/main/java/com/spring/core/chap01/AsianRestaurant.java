@@ -2,7 +2,7 @@ package com.spring.core.chap01;
 
 public class AsianRestaurant implements Restaurant {
 
-    private KimuraChef chef = new KimuraChef();
+    private Chef chef = new KimuraChef();
     private SushiCourse course = new SushiCourse();
 
     public void order() {
